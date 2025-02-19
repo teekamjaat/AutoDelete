@@ -18,13 +18,13 @@
 
 import os
 
-API_ID       = int(os.environ.get("API_ID", ""))
-API_HASH     = os.environ.get("API_HASH", "")
-BOT_TOKEN    = os.environ.get("BOT_TOKEN", "")
-SESSION      = os.environ.get("SESSION", "")
-TIME         = int(os.environ.get("TIME", 10))
-CHATS        = [int(cht) for cht in os.environ.get("CHATS", "").split()]
+API_ID       = int(os.environ.get("API_ID", "22349465"))
+API_HASH     = os.environ.get("API_HASH", "3732e079c4125690226d8e7b4e028ca4")
+BOT_TOKEN    = os.environ.get("BOT_TOKEN", "8182512235:AAEiiW-wRIbd8VgGJfpNjuvR9zHzDaPNWA8")
+SESSION      = os.environ.get("SESSION", "BQFVBpkASHIHsJ848PU65EI5v03DjvJsMuC9919HsNG7Gcmu6-KgAnKL_CvrmVT-bkBrQdStc6TEpSShhAGtGgyVgEdNbzHhoh0sZ76BPT4RmK9xM4uEo9CE8vF3HHLOtOAgDNHutF-cjFYAwX6ZRCwl4bRU9CtX-8W-mPUEZTNtNvqfnjeciCqLI-sLCC4mKi7TkqQHLHp0NLXgmzioZaT6HOYvulQDRbmQhchghIhXFBYLD6dT_dMGiWlvVMnQa8nq7XySaKbmTGFZ-0E_FGA482QV4dKttCF_0jpDHZ-9TQM_kkmb_wOXVSstnKzcd67e9rsXf1m9ajpLPURpJ6nqAUACigAAAAFGAe3WAA")
+TIME         = int(os.environ.get("TIME", 1))
+CHATS        = [int(cht) for cht in os.environ.get("CHATS", "-1002354529839").split()]
 WHITE_LIST   = [int(wht) for wht in os.environ.get("WHITE_LIST", "").split()]
 BLACK_LIST   = [int(blk) for blk in os.environ.get("BLACK_LIST", "").split()]
-DATABASE_URI = os.environ.get("DATABASE_URI", "")
+DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://teekam9079:teekam@teekam.iz7qm.mongodb.net/?retryWrites=true&w=majority&appName=Teekam")
 PORT         = os.environ.get("PORT", "8080")
