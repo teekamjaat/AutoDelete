@@ -23,7 +23,7 @@ API_HASH     = os.environ.get("API_HASH", "3732e079c4125690226d8e7b4e028ca4")
 BOT_TOKEN    = os.environ.get("BOT_TOKEN", "7925203086:AAGAsHcjk8108tHMALCPXU7sF4M7DkALURg")
 SESSION      = os.environ.get("SESSION", "BQGd24oAOq06Q6MSok4FcaqegusJzbKQXjhPFwtwycA5PCpVjlOyD3W_vAWX8RRCtnaIgVg6eP_GZa2FZfz6EqeXI0tePuOdJl_LH3Jx_lSYj7mTvNWYh9un1Hm0Mzaq9gDzTkK4kD18XnYAMbpbZuWI20YsEffRtRyYOYzTZWjJORGQhgz1E7-V3ZeilVVMWRBaXxBt5eB9ptuq-5WS8-BktvYk0vUA6_OzIyBSpMHsxRykbeWS9E1MzrkdF1g7cKH1LxM_3m9Ga7IXcnynuKrEgyCmV-OCxMeKe0HUml4JoIczyN79L6aZeC6rDUeUoJKFHYLPytWi-QvwLVgWCtFXy3UwhAAAAAHHz7TjAA")
 TIME         = int(os.environ.get("TIME", 1))
-CHATS        = [int(cht) for cht in os.environ.get("CHATS", "-1002354529839").split()]
+CHATS        = [int(cht) for cht in os.environ.get("CHATS", "-1001969765318 1001239931442").split()]
 WHITE_LIST   = [int(wht) for wht in os.environ.get("WHITE_LIST", "").split()]
 BLACK_LIST   = [int(blk) for blk in os.environ.get("BLACK_LIST", "").split()]
 DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://teekam9079:teekam@teekam.cludf.mongodb.net/?retryWrites=true&w=majority&appName=Teekam")
